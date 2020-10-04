@@ -6,7 +6,7 @@ Thanks for taking the time to contribute to this repo. Following are some of the
 * Proper Indentation is must.
 * Include comments whereever required so as to make the code easily understandable.
 * Place your code in right directory.
-* Name your files in a meaningful way, for example: Vanya_and_Fence.cpp.
+* **Name your code file with your username. For ex: sidanand67.cpp**
 * Proper naming of variables and functions is must throughout the code.
 
 ### How to Contribute?
