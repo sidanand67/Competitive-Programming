@@ -17,27 +17,32 @@ void solve()
     int i, n, a, c, sum = 0;
     cin >> n >> a;
     fo(i, n) cin >> arr[i];
+    //If criminal is present in Limaks city itself increase count by 1
     if (arr[a - 1] == 1)
         sum++;
     Fo(i, 1, max(a, n - a + 1))
     {
+        //If equal distance in both sides are accessible check for the total criminals
         if (a - i - 1 >= 0 && a + i - 1 < n)
         {
+            //If both are 1 then he can surely catch 2 or else he cant be sure in which side the criminal is present
             if (arr[a - i - 1] == 1 && arr[a + i - 1] == 1)
                 sum += 2;
         }
-        else if(a - i - 1 >= 0)
+
+        //If only one of the sides is accessible then only 1 criminal must be present
+        else if (a - i - 1 >= 0)
         {
             if (arr[a - i - 1] == 1)
                 sum += 1;
         }
-        else if(a + i - 1 < n)
+        else if (a + i - 1 < n)
         {
             if (arr[a + i - 1] == 1)
                 sum += 1;
         }
-
     }
+    //Display the total criminals that can be caught for sure
     cout << sum;
 }
 

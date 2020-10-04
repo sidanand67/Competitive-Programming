@@ -22,15 +22,21 @@ void solve()
     int i, n, m, s = 0;
     cin >> n >> m;
     pair<int, int> a[m];
+    // Create a pair of array to store the matchbox quantity and matches present inside each of them.
     fo(i, m) cin >> a[i].first >> a[i].second;
+    // We will initially take those matchboxes that has the maximum matches present in them
+    // Sort the array according to quantity of matches i.e SECOND
     sort(a, a + m, sortbysec);
     i = 0;
     while (n > 0 && i < m)
     {
+        // Add the total matches taken
         s += (min(n, a[i].first) * a[i].second);
+        // Accordingly remove the number of matchboxes considered until n becomes 0 or we run out of matchboxes
         n -= min(n, a[i].first);
         i++;
     }
+    // Display total matches
     cout << s;
 }
 

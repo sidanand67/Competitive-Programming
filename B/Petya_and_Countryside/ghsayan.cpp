@@ -16,10 +16,13 @@ void solve()
 {
     int i, n, c, mx = 0, j, k;
     cin >> n;
+    //Take the height of all fences in an array
     fo(i, n) cin >> arr[i];
     fo(i, n)
     {
         c = 1;
+        //Now count the total fences before and after the ith fence that are in decreasing order
+        //Before i-th fence
         for (j = i; j > 0; j--)
         {
             if (arr[j - 1] <= arr[j])
@@ -27,6 +30,7 @@ void solve()
             else
                 break;
         }
+        //After i-th fence
         for (k = i; k < n - 1; k++)
         {
             if (arr[k + 1] <= arr[k])
@@ -34,9 +38,11 @@ void solve()
             else
                 break;
         }
+        //Store the maximum no. of fences in decreasing order on both side
         if (c > mx)
             mx = c;
     }
+    //Display the maximum
     cout << mx;
 }
 
