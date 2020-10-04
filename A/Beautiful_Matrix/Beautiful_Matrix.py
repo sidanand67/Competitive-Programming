@@ -14,8 +14,5 @@ for i in range(0,5):
             x=3-i-1
             y=3-j-1
             break
-if(x<0):
-    x=x*(-1)
-if(y<0):
-    y=y*(-1)
-print(x+y)
+
+print(abs(x)+abs(y))
