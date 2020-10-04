@@ -23,7 +23,7 @@ void solve()
 	fo(i, n)
 	{
 		cin >> x;
-		//If height os more than fence then width must be considered 2 or else 1
+		//If height is more than fence then width must be considered 2 or else 1
 		if (x > height)
 			minsum += 2;
 		else
