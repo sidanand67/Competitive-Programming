@@ -1,5 +1,6 @@
 # Competitive-Programming
-Solutions to programming questions sheet created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/).
+Solutions to programming questions sheet created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/). 
+
 **Proper naming of functions and variables is a must.**
 
 ## Motto of the Repo
