@@ -17,17 +17,20 @@ int arr[N];
 
 void solve()
 {
-	int i, n, h, sum = 0, x;
-	cin >> n >> h;
+	int i, n, height, minsum = 0, x;
+	//Accept array length and height of fence
+	cin >> n >> height;
 	fo(i, n)
 	{
 		cin >> x;
-		if (x > h)
-			sum += 2;
+		//If height os more than fence then width must be considered 2 or else 1
+		if (x > height)
+			minsum += 2;
 		else
-			sum += 1;
+			minsum += 1;
 	}
-	cout << sum;
+	//Display the minimum width
+	cout << minsum;
 }
 
 int main()
