@@ -22,8 +22,9 @@ for i in range(0,5):
             col=3-j-1
             flag=1
             break
-     if(flag==1):
-         break
+        
+    if(flag==1):
+        break
      
 # Now I am printing the sum absolute values of number rows and number of columns to swap to achieve a beautiful matrix configuration.  
 print(abs(row)+abs(col))
