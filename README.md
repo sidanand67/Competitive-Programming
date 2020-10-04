@@ -1,10 +1,14 @@
 # Competitive-Programming
 Solutions to programming questions sheet created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/).
 
+## Motto of the Repo
+
+This repo is made to comfort the learners not to overwhelm them.
+
 ### What's this repo about?
 
-This repository is created for storing coding solutions to various problems mentioned in the competitive programming sheet prepared by Dr Mostafa Saad Ibrahim.  
-This sheet contains almost 950 problems for all levels of programmers.
+This repo is created to house the solutions of problems mentioned in the programming sheet at one place.  
+The sheet contains almost 950 problems from beginner to advanced levels.
 
 ### Where's the sheet link?
 
@@ -12,11 +16,16 @@ You can find the link to the sheet here. [Click Me!](https://docs.google.com/spr
 
 ### How to contribute?
 
-Read the Contributing.md file for this.
+Read the **Contributing.md** file for this. All the contributions should follow the guidelines. 
 
-### Who can contribute?
+### Language for contribution
 
-Anyone can contribute to this in any programming language. 
+Contributions are accepted only in the following languages:
+* C
+* C++
+* Java
+* Javascript
+* Python
 
 ### Learning Resources
 
