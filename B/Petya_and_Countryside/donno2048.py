@@ -22,5 +22,5 @@ def output(x:str,y:str)->None:
                 height_r=heights[i+j] # readjusted the lowest height from the right
             else:break # stop when a section is too high
         scores+=[score]
-    print(scores.index(max(scores))+1) # print the number of the section with the highest score
+    print(max(scores)) # print the maximum number of the sections
 while True:output(input('Number of sections: '),input('Height of the sections (divided with spaces): '))
