@@ -1,11 +1,9 @@
 # Competitive-Programming
 Solutions to programming questions sheet created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/). 
 
-**Proper naming of functions and variables is a must.**
+## Important Note
 
-## Motto of the Repo
-
-This repo is made to comfort the learners not to overwhelm them.
+Everyone is requested to either comment their code properly or use appropriate variable and function names throughout the code.
 
 ### What's this repo about?
 
