@@ -16,9 +16,9 @@ void solve()
 			bi++;
 	}
 	if (sm >= bi)
-		transform(s.begin(), s.end(), s.begin(), ::tolower);
+		transform(s.begin(), s.end(), s.begin(), ::tolower); // converts whole string to lowercase
 	else
-		transform(s.begin(), s.end(), s.begin(), ::toupper);
+		transform(s.begin(), s.end(), s.begin(), ::toupper); // converts whole string to uppercase
 	cout << s << "\n";
 }
 
