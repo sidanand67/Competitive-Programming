@@ -8,6 +8,7 @@ int main()
     for(j=0;j<5;j++)
     {
       cin>>A[i][j];
+      //checking if the value entered is 1 or not
       if(A[i][j]==1)
       {
         a=i;
@@ -15,6 +16,7 @@ int main()
       }
     }
   }
+  //calculating the absolutes. 
   c=abs(a-2)+(abs(b-2));
   cout<<c;
 }
