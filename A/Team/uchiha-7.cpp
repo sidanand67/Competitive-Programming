@@ -14,7 +14,7 @@ int main()
 		int petya, vasya, tonya;
 		cin >> petya >> vasya >> tonya;
 		if (petya + vasya + tonya >= 2)
-            count++;
+		    count++;
             
 	}
 
