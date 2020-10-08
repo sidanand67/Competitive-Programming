@@ -13,11 +13,14 @@ int main() {
 	// first the largest fibonacci number less than n
 	ll first = 2, second = 3;
 	ll index = 2;
+	// index contains the index of fibonacci number stored in second 
 	while (second <= n) {
+	    // calculate next fibonacci number
 	    ll t = first + second;
 	    first = second;
 	    second = t;
 	    if (second > n) {
+		// if second is greater than n then display previous index
 		cout << index;
 		return 0;
 	    }
