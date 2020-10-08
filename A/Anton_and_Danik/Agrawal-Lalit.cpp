@@ -1,3 +1,9 @@
+/*
+ Lalit Agrawal
+ Github :- https://github.com/Agrawal-Lalit
+ problem link:- https://codeforces.com/contest/734/problem/A
+*/
+
 #include<iostream>
 #include<string>
 using namespace std;
