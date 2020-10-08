@@ -13,7 +13,7 @@ int main(){
 	}
 	total+=1;
 
-	while(sum>=10){
+	while(sum>=10){            //when sum becomes less than 10 then number becomes one-digit
 		answer=0;
 		total++;
 		while(sum>0){
@@ -23,7 +23,7 @@ int main(){
 		}
 		sum=answer;
 	}
-	if(strlen(a)==1)
+	if(strlen(a)==1)        //if number is already one digit 
 		total=0;
 	
 	cout<<total<<endl;
