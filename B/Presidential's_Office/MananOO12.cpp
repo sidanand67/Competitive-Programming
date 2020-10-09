@@ -24,22 +24,18 @@ int main()
                     if(mark[s[i][j+1]]==0 && j+1<m){
                             cnt++;
                             mark[s[i][j+1]]=1;
-                            //cout<<"i "<<i<<" j "<<j+1<<" "<<s[i][j+1]<<endl;
                     }
                     if(mark[s[i][j-1]]==0 && j-1>=0){
                             cnt++;
-                            mark[s[i][j-1]]=1;
-                            //cout<<"i "<<i<<" j "<<j-1<<" "<<s[i][j-1]<<endl;
+                            mark[s[i][j-1]]=1;                           
                     }
                     if(mark[s[i+1][j]]==0 && i+1<n){
                             cnt++;
                             mark[s[i+1][j]]=1;
-                            //cout<<"i "<<i+1<<" j "<<j<<" "<<s[i+1][j]<<endl;
                     }
                     if(mark[s[i-1][j]]==0 && i-1>=0){
                             cnt++;
                             mark[s[i-1][j]]=1;
-                            //cout<<"i "<<i-1<<" j "<<j<<" "<<s[i-1][j]<<endl;
                     }
                 }
             }
