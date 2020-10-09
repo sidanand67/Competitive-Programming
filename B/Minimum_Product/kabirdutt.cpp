@@ -6,7 +6,7 @@
 #define pb push_back
 #define fo(i,n) for(int i=1;i<=n;i++)
 using namespace std;
-ll first(ll a , ll b , ll x , ll y , ll n)
+ll first(ll a , ll b , ll x , ll y , ll n) // first function with 4 parameters
 {
 	ll t1 = a - x;
 	ll t2 = b - y;
@@ -23,9 +23,9 @@ ll first(ll a , ll b , ll x , ll y , ll n)
 }
 void solve()
 {
-	ll a , b , x , y , n;
+	ll a , b , x , y , n; // intializing the variable
 	cin >> a >> b >> x >> y >> n;
-	ll ans = min(first(a , b, x , y , n), first(b , a , y , x , n));
+	ll ans = min(first(a , b, x , y , n), first(b , a , y , x , n)); // taking the minimum of the function
 	cout << ans << endl;
 
 }
@@ -34,11 +34,11 @@ void solve()
 int main()
 {
 	fast;
-	int t;
-	cin >> t;
-	while (t--)
+	int cases;
+	cin >> cases;
+	while (cases--) //loop to solve each test case
 	{
-		solve();
+		solve();//function  call
 	}
 	return 0;
 }
