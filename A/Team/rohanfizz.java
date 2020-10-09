@@ -5,6 +5,7 @@
         
      
         public static void team(){
+            //Inputs
             int n = scn.nextInt();
             int[][] arr = new int[n][3];
             for(int i = 0;i<n;i++){
@@ -12,15 +13,16 @@
                     arr[i][j] =scn.nextInt();
                 }
             }
-     
+            
+            //Keeps track of answer
             int count = 0;
             
             for(int i = 0;i<n;i++){
-                int cc = 0;
+                int currentCount = 0;      //counts who is sure about the solution
                 for(int j = 0;j<3;j++){
                     cc+=arr[i][j];
                     if(cc==2){
-                        count++;
+                        count++;            // if 2 people are sure, it is sufficient to consider as an answer
                         break;
                     }
                 }
