@@ -1,14 +1,17 @@
 # Competitive-Programming
-Solutions to programming questions sheet created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/). 
+Solutions to programming questions [sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=84654839) created by [Dr Mostafa Saad Ibrahim](https://sites.google.com/site/mostafasibrahim/). 
 
-## Important Note
+## IMPORTANT NOTE
 
-Everyone is requested to either comment their code properly or use appropriate variable and function names throughout the code.
+1. [Follow this](https://github.com/sidanand67/Competitive-Programming/issues/143) to understand how this repo works.
+
+2. Everyone is requested to either comment their code properly or use appropriate variable and function names throughout the code.
 
 ### What's this repo about?
 
 This repo is created to house the solutions of problems mentioned in the programming sheet at one place.  
 The sheet contains almost 950 problems from beginner to advanced levels.
+You can also add your favorite algorithms in "Algorithms" folder.
 
 ### Where's the sheet link?
 
@@ -16,7 +19,7 @@ You can find the link to the sheet here. [Click Me!](https://docs.google.com/spr
 
 ### How to contribute?
 
-Read the **Contributing.md** file for this. All the contributions should follow the guidelines. 
+Read the [**Contributing.md**](https://github.com/sidanand67/Competitive-Programming/blob/main/CONTRIBUTING.md) file for this. All the contributions should follow the guidelines. 
 
 ### Language for contribution
 
