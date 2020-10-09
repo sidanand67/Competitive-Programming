@@ -3,15 +3,18 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner sc=new Scanner(System.in);
+		// Inputting weight of limak
 		int a=sc.nextInt();
+		// Inputting weight of Bob
 		int b=sc.nextInt();	
-		int v1=a,v2=b,ct=0;
+		/* since limak's wt gets tripled and bob's wt gets doubled every year hence, the variables limakUpdatedWeight and bobUpdatedWeight are used and count variable is used to keep track after how many full years will Limak become strictly larger (strictly heavier) than Bob */
+		int limakUpdatedWeight=a,bobUpdatedWeight=b,count=0;
 		do{
-		    v1=v1*3;
-		    v2=v2*2;
-		    ct++;
+		    limakUpdatedWeight=limakUpdatedWeight*3;
+		    bobUpdatedWeight=bobUpdatedWeight*2;
+		    count++;
 		}
-		while(v1<=v2);
-		System.out.println(ct);
+		while(limakUpdatedWeight<=bobUpdatedWeight);
+		System.out.println(count);
 	}
 }
