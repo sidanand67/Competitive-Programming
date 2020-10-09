@@ -1,0 +1,29 @@
+Given a Matrix, write a function that will print the elements in spiral order.
+For example, if the Matrix is as below:
+1  2  3   4
+5  6  7   8
+9  10  11 12
+13 14  15 16
+
+Then the output should be:
+
+1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10
+
+1 ->  2 ->  3 ->  4
+                  |
+5 -> 6 -> 7       8
+^         |       |
+9   10 <- 11     12
+^                 |
+13 <- 14 <- 15 <- 16
+
+In a single loop we will print one complete
+circle of elements. Hence we will have 4 loops inside a bigger loop to print the
+
+1. Top Row from Left to Right
+2. Last Column from Top to bottom
+3. Last Row from Right to Left
+4. First Column Bottom to Top
+
+So first pass (of outer loop, which has the above 4 loops)
+ the elements will get printed as above:
