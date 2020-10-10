@@ -1,3 +1,5 @@
+/* C1 - Duff In Love Problem */
+
 #include <bits/stdc++.h>
 #define X first
 #define Y second
