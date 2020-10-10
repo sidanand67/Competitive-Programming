@@ -3,15 +3,15 @@ import java.util.*;
 public class CaisaAndPylons {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int answer = 0;
-        for(int i = 0; i < n; i++) {
-            int x = scanner.nextInt();
-            if(x > answer) {
-                answer = x;
+        int countOfPylons = scanner.nextInt();
+        int requiredFirstPylonHeight = 0;
+        for(int i = 0; i < countOfPylons; i++) {
+            int currentPylonHeight = scanner.nextInt();
+            if(currentPylonHeight > requiredFirstPylonHeight) {
+                requiredFirstPylonHeight = currentPylonHeight;
             }
         }
-        System.out.print(answer);
+        System.out.print(requiredFirstPylonHeight);
         scanner.close();
     }
 }
