@@ -13,7 +13,7 @@ Thanks for taking the time to contribute to this repo. Following are some of the
 
 - Fork this Repo.
 - Clone the repo to your local machine.
-- Create a new directory(if it doesn't exist) in the relevant folder using the problem name as the directory name.
+- Create a new directory(if it doesn't exist) in the relevant folder using the problem name as the directory name separated by underscores(_).
 For example, 
 
 >"Vanya_and_Fence".
