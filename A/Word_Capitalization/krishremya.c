@@ -7,7 +7,7 @@ int main()
    int i=0;
    if(str[i]>='a'&&str[i]<='z')
    {
-       str[i]=str[i]-32; //converting small letters if any into capital letter
+       str[i]=str[i]-32; //converting the first small letter into capital letter
    }
    //printing the string
    printf("%s",str);
