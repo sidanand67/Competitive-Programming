@@ -7,6 +7,7 @@ int main(){
     cin>>s;
     int size = s.size();
     if(size>10)
+//Printing the first and last letter, and the length of the remaining string
     cout<<s[0]+to_string(size-2)+s[size-1]<<endl;
     else
     cout<<s<<endl;
