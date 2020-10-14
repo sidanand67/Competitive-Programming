@@ -16,7 +16,7 @@ vector<int> rcnt;       // Maps the vertex number to its r-count
 map<string, int> mp;    // Maps the string to its vertex number
 int comp[N];            // Maps the vertex number to its component
 vector<int> minR;       // Maps the component to its representative vertex number
-vector<int> minR2;      // Maps the component to the vertex number yield optimum answer
+vector<int> minR2;      // Maps the component to the vertex number (string) yielding optimum answer
 
 // Function to convert strings to lowercase
 void lowercase(string &s)
@@ -151,7 +151,7 @@ int main()
     }
 
     for(auto i:edges)
-        if(comp[i.first] != comp[i.second])     // There is a edge between two different SCC
+        if(comp[i.first] != comp[i.second])     // There is an edge between two different SCC
             graph2[comp[i.first]].push_back(comp[i.second]);   
 
     minR2.resize(curComp);
