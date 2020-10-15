@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int n;
-    vector<long> cood;
+    vector<long> cood;//Vector to take input of coordinates
     cin>>n;
     for(int i=0;i<n;i++){
         long num;
@@ -18,7 +18,7 @@ int main(){
         }
         else if(i>=1 || i<n-1)
         {
-            cout<<min((cood[i+1]-cood[i]),(cood[i]-cood[i-1]))<<" "<<max((cood[n-1]-cood[i]),(cood[i]-cood[0]))<<endl;
+            cout<<min((cood[i+1]-cood[i]),(cood[i]-cood[i-1]))<<" "<<max((cood[n-1]-cood[i]),(cood[i]-cood[0]))<<endl;//max and min cost for mail delivery 
         }   
     }
     return 0;
