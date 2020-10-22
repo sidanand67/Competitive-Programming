@@ -1,0 +1,10 @@
+Problem Statement - Given two lists of integers preorder and inorder representing the pre-order and in-order traversals of a binary tree, reconstruct the tree and return the root.
+
+Input : 
+preorder = [4, 2, 1, 0, 3]
+inorder = [2, 1, 0, 3, 4]
+
+Output : The root node of the tree
+this was the output on the website i solved the question on.
+basically this is the tree made.
+[4, [2, null, [1, null, [0, null, [3, null, null]]]], null]
