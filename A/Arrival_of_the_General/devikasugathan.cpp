@@ -1,10 +1,10 @@
 # include<bits/stdc++.h>
 using namespace std;
-int  n,k,c;
+int  n,k,c; // initial value set to zero, k and c to store comparing values
 int main()
 {
-   cin>>n;  // number of soldiers
-   int a[n];
+   cin>>n;  // the number of soldiers
+   int a[n];  //
    for(int i=0;i<n;i++)
    {
        cin>>a[i];
